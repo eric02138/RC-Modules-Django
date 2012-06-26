@@ -1,0 +1,8 @@
+from django.db import models
+
+class Module(models.Model):
+    name = models.CharField(maxlength=100)
+    help_text = models.CharField()
+    updated = models.DateTimeField()
+    whatis = models.CharField()
+    

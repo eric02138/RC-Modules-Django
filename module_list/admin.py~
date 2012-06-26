@@ -1,0 +1,4 @@
+from module_list.models import Module
+from django.contrib import admin
+
+admin.site.register(Module)
